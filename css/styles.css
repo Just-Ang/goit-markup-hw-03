@@ -48,12 +48,11 @@ p {
   padding-top: 94px;
   padding-bottom: 94px;
 }
-/* header */
-/* logo */
+/* -----------header------------- */
+
 .container.header {
   display: flex;
   align-items: center;
-  /* border: 1px solid #ECECEC; */
 }
 .main-header {
   border-bottom: 1px solid #ececec;
@@ -282,7 +281,8 @@ p {
   text-align: center;
 }
 
-/* portfolio page */
+/*--------------------------portfolio page------------------- */
+
 .filter {
   display: flex;
   justify-content: center;
@@ -328,11 +328,11 @@ p {
 }
 .border {
   padding-top: 20px;
-  border-right: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
-  border-left: 1px solid #eeeeee;
+  border-right: 1px solid var(--border-color);
+  border-bottom: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
 }
-.porfolio-item:nth-child(3n) {
+.portfolio-item:nth-child(3n) {
   margin-right: 0;
 }
 .portfolio-item:nth-last-child(-n + 3) {
